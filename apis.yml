@@ -1,7 +1,12 @@
 aid: rexby
 name: Rexby
-description: Rexby is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Rexby is a consumer travel discovery and trip-planning platform where local creators
+  publish interactive travel guides and maps of curated "spots," and travelers browse those guides,
+  build personal itineraries, and follow creator recommendations. The product is delivered as iOS
+  and Android mobile apps plus the rexby.com web experience, with a creator program that lets travel
+  enthusiasts monetize their guides. Backed by Techstars. As of this profile Rexby publishes no
+  public developer API, SDKs, or developer documentation; this apis.yml captures its identity and
+  a domain-security probe for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/rexby/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Travel Guides
+- Maps
+- Trip Planning
+- Creator Economy
+- Consumer App
+- Mobile
+image: https://rexby.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/rexby-domain-security.yml
 - type: Website
   url: https://rexby.com/
+- type: About
+  url: https://www.rexby.com/aboutus
+- type: TermsOfService
+  url: https://rexby.com/termsofuse
+- type: PrivacyPolicy
+  url: https://rexby.com/privacypolicy
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
