@@ -38,7 +38,7 @@ accessModel:
   method: derived
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-06'
 tags:
 - Company
 - Travel
@@ -56,6 +56,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://www.rexby.com/blog
+  type: Blog
 - type: DomainSecurity
   url: security/rexby-domain-security.yml
 - type: Website
